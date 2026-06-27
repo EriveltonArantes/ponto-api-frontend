@@ -1,6 +1,6 @@
 import React from 'react';
 
-const apiBaseUrl = "https://ponto-api.onrender.com";
+const apiBaseUrl = "https://ponto-api-5j2s.onrender.com";
 
 function authHeaders(token) {
   return token ? { "Authorization": "Bearer " + token } : {};
